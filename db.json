@@ -1,0 +1,88 @@
+{
+  "trainings": [
+    {
+      "id": 1,
+      "title": "Angular",
+      "date": "20/10/2020",
+      "score": 0
+    },
+    {
+      "Title": ".Net Core",
+      "Date": "01/06/2021",
+      "Score": 0,
+      "Id": 2,
+      "id": 2
+    },
+    {
+      "id": 3,
+      "title": "Azure",
+      "date": "09/01/2021",
+      "score": 0
+    },
+    {
+      "id": 4,
+      "title": "Java",
+      "date": "09/05/2021",
+      "score": 0
+    },
+    {
+      "id": 5,
+      "title": "Oracle",
+      "date": "27/07/2021",
+      "score": 0
+    },
+    {
+      "id": 6,
+      "title": "Taglio&Cucito",
+      "date": "11/08/2021",
+      "score": 0
+    },
+    {
+      "id": 7,
+      "title": "Banditore d'asta",
+      "date": "23/02/2021",
+      "score": 0
+    },
+    {
+      "Title": ".Net Core",
+      "Date": "01/06/2021",
+      "Score": 0,
+      "Id": 2,
+      "id": 8
+    }
+  ],
+  "signedUps": [
+    {
+      "id": 1,
+      "trainId": "1",
+      "name": "Linda",
+      "surname": "Rimoldi",
+      "email": "linda.rimoldi@reti.it",
+      "phone": "3331234599"
+    },
+    {
+      "id": 2,
+      "trainId": "1",
+      "name": "Fabrizio",
+      "surname": "Sanna",
+      "email": "fabrizio.sanna@reti.it",
+      "phone": "3331234599"
+    },
+    {
+      "id": 3,
+      "trainId": "2",
+      "name": "Matteo",
+      "surname": "Palmarin",
+      "email": "matteo.palmarin@reti.it",
+      "phone": "3331234599"
+    },
+    {
+      "id": "4",
+      "trainId": "1",
+      "name": "Giacomo",
+      "surname": "Pignoni",
+      "email": "giacomo.pignoni@reti.it",
+      "phone": "3331234599"
+    }
+  ]
+}
