@@ -31,5 +31,18 @@ namespace PlannetRepository.DAL.Repositories
         {
             throw new NotImplementedException();
         }
+
+        public async Task<IEnumerable<Training>> GetTrainingsAsync(int page, int numElem)
+        {
+            IEnumerable<Training> ret = null;
+            var response = await client.GetAsync($"/{repositoryName}?_page={page}&_limit={numElem}");
+            if (response.IsSuccessStatusCode)
+            {
+                string json = await response.Content.ReadAsStringAsync();
+                ret = JsonConvert.DeserializeObject<IEnumerable<Training>>(json);
+            }
+
+            return ret;
+        }
     }
 }

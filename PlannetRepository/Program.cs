@@ -16,6 +16,13 @@ namespace PlannetRepository
 
             Console.ReadLine();
 
+            var paging = await trainingRep.GetTrainingsAsync(2, 2);
+            foreach (var item in paging)
+            {
+                Console.WriteLine(item.ToString());
+            }
+            Console.ReadLine();
+
             var train2 = await trainingRep.GetByIdAsync(2);
             Console.WriteLine(train2.Title);
             Console.ReadLine();
